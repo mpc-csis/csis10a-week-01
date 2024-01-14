@@ -40,37 +40,46 @@ The Java Developement Kit (JDK) contains a command line compiler for java progra
 1. Know how to use a terminal/command window.
 2. Know how to use javac from the command line!!
 
-__Windows Users Read THIS!!__: As discussed in class, the java and javac must be added to the Windows PATH environment variable before you can use them in PowerShell or a Command Window. Instuctions for configuring the PATH variable can be found here. You will also need to set the JAVA_HOME environment variable. 
+> [!IMPORTANT]
+> __Windows Users Read THIS!!__: As discussed in class, the java and javac must be added to the Windows PATH environment variable before you can use them in PowerShell or a Command Window. Instuctions for configuring the PATH variable can be found here. You will also need to set the JAVA_HOME environment variable. 
 
-1. __Open a terminal/command prompt__
-On Windows: Go to the start menu. Then follow the instructions here
+#### 1. Open a terminal/command prompt
 
-On Mac OS X: The Terminal application can be found at /Applications/Utilities/Terminal.app. Just double click it to launch it.
+__Windows__: Go to the start menu. Then follow the instructions here
 
-Linux: If you are running linux you should already know how to open a terminal :-)
+__Mac OS X__: The Terminal application can be found at `/Applications/Utilities/Terminal.app`. Just double click it to launch it.
 
-2. __Compile a program using javac__
+__Linux__: If you are running linux you should already know how to open a terminal :-)
 
-    1. Write a simple java program and save it. (e.g. HelloWorld.java).
-    2. In the terminal, change to the directory that contains the java file. On Windows, you change to the drive containing the java file and then cd to the directory. For example, can use
+#### 2. Compile a program using javac
 
-```
+1. Write a simple java program and save it. (e.g. HelloWorld.java).
+2. In the terminal, change to the directory that contains the java file. On Windows, you change to the drive containing the java file and then cd to the directory. 
+
+```sh
+# Windows
 U:
 cd \Path\To\Directory\With\Java\File.
 ```
 
-    On other platforms you can just use the cd command: `cd /Path/To/Directory/With/Java/File`
+```sh
+# Mac/Linux
+cd /Path/To/Directory/With/Java/File
+```
 
-    3. Compile the java code using the command: `javac [filename]``. For example: `javac HelloWorld.java`. This example will create a file named HelloWorld.class.
+3. Compile the java code using the command: `javac [filename]`. For example: `javac HelloWorld.java`. This example will create a file named HelloWorld.class.
 
-3. __Run the program using java__: A simple java program can be run using java command: java [classname].
+#### 3. Run the program using java
 
-In our example it's `java HelloWorld``. Important: Notice that we do not use an extension!! When we pass 'HelloWorld' to java, it knows to look for 'HelloWorld.class'
+A simple java program can be run using java command: `java [classname]`.
+
+In our example it's `java HelloWorld`. Important: Notice that we do not use an extension!! When we pass 'HelloWorld' to java, it knows to look for 'HelloWorld.class'
+
+#### Shortcut for Single file programs
+
+Since Java 11, you can run a single file Java program without using `javac`. For example, if you have a file `HelloWorld.java`, you can compile it and run it in a single step using `java HelloWorld.java`.
 
 
+### git
 
-
-
-
-
-
+<https://developers.redhat.com/articles/2023/08/02/beginners-guide-git-version-control#>
