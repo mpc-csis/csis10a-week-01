@@ -4,9 +4,9 @@
 
 ## Day 1
 
-- [Survey]()
+- [Survey](https://forms.gle/ZhnXcJBuhk6tU42W6)
 - [Lecture 1](https://docs.google.com/presentation/d/16rVGgM_dYfxmIO0ouby6pf1Ar_hX4YKR4c-yeL4iO7o/edit?usp=sharing)
-- [Lab 0 - Intro to Git](https://classroom.github.com/a/khqpszmc)
+- [Lab 0 - Intro to Git](https://github.com/mpc-csis/github-starter-course)
 - [Lab 1 - Part A: The Way of the Program](https://docs.google.com/document/d/17HY3iNOAnszaR81U0djk7VWTSvZ8wHx_cJQVhF19wkw/edit?usp=sharing)
 
 ## Day 2
