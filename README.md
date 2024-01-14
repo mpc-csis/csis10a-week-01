@@ -51,17 +51,17 @@ Linux: If you are running linux you should already know how to open a terminal :
 
 2. __Compile a program using javac__
 
-    1. Write a simple java program and save it. (e.g. HelloWorld.java).
-    2. In the terminal, change to the directory that contains the java file. On Windows, you change to the drive containing the java file and then cd to the directory. For example, can use
+  1. Write a simple java program and save it. (e.g. HelloWorld.java).
+  2. In the terminal, change to the directory that contains the java file. On Windows, you change to the drive containing the java file and then cd to the directory. For example, can use
 
-```
+```sh
 U:
 cd \Path\To\Directory\With\Java\File.
 ```
 
-    On other platforms you can just use the cd command: `cd /Path/To/Directory/With/Java/File`
+  - On other platforms you can just use the cd command: `cd /Path/To/Directory/With/Java/File`
 
-    3. Compile the java code using the command: `javac [filename]``. For example: `javac HelloWorld.java`. This example will create a file named HelloWorld.class.
+  3. Compile the java code using the command: `javac [filename]``. For example: `javac HelloWorld.java`. This example will create a file named HelloWorld.class.
 
 3. __Run the program using java__: A simple java program can be run using java command: java [classname].
 
