@@ -89,6 +89,14 @@ In our example it's `java HelloWorld`. Important: Notice that we do not use an e
 
 Since Java 11, you can run a single file Java program without using `javac`. For example, if you have a file `HelloWorld.java`, you can compile it and run it in a single step using `java HelloWorld.java`.
 
+### Shell Commands for Powershell/Terminal
+
+- `rm` - Remove file e.g. `rm HelloWorld.class`
+- `cd` - Change directory: `cd csisi10a`
+- `ls` - list directory contents: `ls` or `ls csis10a`
+- `pwd` - present working directory 
+- `mkdir` - Make directory: `mkdir csis10a`
+
 ### git
 
 - [Starter Course for GitHub](https://classroom.github.com/a/1A5I5rnW)
